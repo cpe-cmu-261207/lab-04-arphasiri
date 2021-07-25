@@ -104,7 +104,7 @@ function addtodo(textnow) {
         divtesk.remove()
     })
     divbtn.append(donebtn)
-    divbtn.appsnd(delbtn)
+    divbtn.append(delbtn)
     divtesk.append(text)
     divtesk.append(divbtn)
     tlist.append(divtesk)
